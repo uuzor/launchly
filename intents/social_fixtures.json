@@ -1,0 +1,32 @@
+{
+ "x|@demo-alice|https://x.com/demo-alice/status/1": {
+  "account_age_days": 30,
+  "alive": true,
+  "content": "Trying the V5 Gadget https://example.com/v5 #VG5 \u2014 first impressions!",
+  "posted_at": "2026-11-05T00:00:00Z"
+ },
+ "x|@demo-bob|https://x.com/demo-bob/status/1": {
+  "account_age_days": 2,
+  "alive": true,
+  "content": "Demo Product is neat https://demo.example #DEMO",
+  "posted_at": "2026-11-05T00:00:00Z"
+ },
+ "x|@demo-cara|https://x.com/demo-cara/status/1": {
+  "account_age_days": 90,
+  "alive": false,
+  "content": "My Demo Product review https://demo.example #DEMO",
+  "posted_at": "2026-11-05T00:00:00Z"
+ },
+ "x|@buyer|https://x.com/buyer/status/v4": {
+  "content": "V4 Gadget is live https://example.com/v4 #VG4",
+  "posted_at": "2026-11-05T00:00:00Z",
+  "account_age_days": 30,
+  "alive": true
+ },
+ "x|@demo-bob|https://x.com/demo-bob/status/2": {
+  "content": "V5 Gadget deep dive is up https://example.com/v5 #VG5 worth a look",
+  "posted_at": "2026-11-05T00:00:00Z",
+  "account_age_days": 45,
+  "alive": true
+ }
+}

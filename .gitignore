@@ -1,0 +1,19 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+target/
+.near-credentials/
+neardev/
+.env
+*.db
+*.db-journal
+uploads/
+__pycache__/
+
+# deploy keys (never commit)
+launchly-deploy
+launchly-deploy.pub
+launchly-e2e.testnet.json

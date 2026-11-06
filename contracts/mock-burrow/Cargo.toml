@@ -1,0 +1,14 @@
+[package]
+name = "mock-burrow"
+version = "0.1.0"
+edition = "2021"
+description = "Test-only mock of the Burrow subset Launchly uses: storage_deposit, ft_on_transfer (empty-msg supply), execute{Withdraw}, plus configurable fake interest"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk = "5.29.1"
+
+[dev-dependencies]
+near-sdk = { version = "5.29.1", features = ["unit-testing"] }
